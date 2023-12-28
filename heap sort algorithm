@@ -1,0 +1,6 @@
+HEAP-SORT (A)
+ 1. BUILD-MAX-HEAP (A)
+ 2. For I ← length[A] down to Z
+ 3. Do exchange A [1] ←→ A [i]
+ 4. Heap-size [A] ← heap-size [A]-1
+ 5. MAX-HEAPIFY (A,1)
