@@ -1,0 +1,13 @@
+LEFT ROTATE (T, x)
+ 1. y ← right [x]
+ 1. y ← right [x]
+ 2. right [x] ← left [y]
+ 3. p [left[y]] ← x
+ 4. p[y] ← p[x]
+ 5. If p[x] = nil [T]
+   then root [T] ← y
+    else if x = left [p[x]] 									
+      then left [p[x]] ← y
+    else right [p[x]] ← y
+ 6. left [y] ← x.
+ 7. p [x] ← y.	
