@@ -1,0 +1,19 @@
+import java.util.Scanner;
+ class Student {
+     public void fun() {
+         System.out.pritnln("this is a student class");
+     }
+ }
+ class child extends Student{
+     public void funl(){
+         System.out.println("this is a child class");
+     }
+     
+ }
+ class Sample{
+     public static void main(String[] args){
+         child s1=new child();
+         s1.fun();
+         s1.fun1();
+     }
+ }
